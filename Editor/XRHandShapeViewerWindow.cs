@@ -15,7 +15,7 @@ public class XRHandShapeViewerWindow : EditorWindow
     // Variables for the preview
     private PreviewRenderUtility previewRenderUtility;
     private Vector2 drag;
-    private float zoom = 0.1f;
+    private float zoom = 1.0f;
     private Vector2 panOffset = Vector2.zero; // Offset for panning
     
     // Default and target hand model prefabs
@@ -54,7 +54,7 @@ public class XRHandShapeViewerWindow : EditorWindow
             
             // Set the camera clip planes to avoid clipping during zoom
             previewRenderUtility.camera.nearClipPlane = 0.01f;
-            previewRenderUtility.camera.farClipPlane = 50f;
+            previewRenderUtility.camera.farClipPlane = 10f;
         }
         
         // Load hand prefabs if necessary
@@ -354,7 +354,7 @@ public class XRHandShapeViewerWindow : EditorWindow
         {
             drag = Vector2.zero;
             panOffset = Vector2.zero;
-            zoom = 0.1f;
+            zoom = 1.0f;
             Repaint();
         }
         

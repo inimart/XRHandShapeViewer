@@ -1,18 +1,19 @@
 {
- "name": "Inimart.XRHandShapeViewer.Editor",
- "rootNamespace": "Inimart.XRHandShapeViewer.Editor",
- "references": [
-   "Inimart.XRHandShapeViewer"
- ],
- "includePlatforms": [
-   "Editor"
- ],
- "excludePlatforms": [],
- "allowUnsafeCode": false,
- "overrideReferences": false,
- "precompiledReferences": [],
- "autoReferenced": true,
- "defineConstraints": [],
- "versionDefines": [],
- "noEngineReferences": false
+    "name": "Inimart.XRHandShapeViewer.Editor",
+    "rootNamespace": "Inimart.XRHandShapeViewer.Editor",
+    "references": [
+        "Inimart.XRHandShapeViewer",
+        "Unity.XR.Hands"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

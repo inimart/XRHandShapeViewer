@@ -1,8 +1,8 @@
 {
- "name": "Inimart.UVTransferTool.Editor",
- "rootNamespace": "Inimart.UVTransferTool.Editor",
+ "name": "Inimart.XRHandShapeViewer.Editor",
+ "rootNamespace": "Inimart.XRHandShapeViewer.Editor",
  "references": [
-   "Inimart.UVTransferTool"
+   "Inimart.XRHandShapeViewer"
  ],
  "includePlatforms": [
    "Editor"

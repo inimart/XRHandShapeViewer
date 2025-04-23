@@ -1,14 +1,16 @@
 {
- "name": "Inimart.XRHandShapeViewer",
- "rootNamespace": "Inimart.XRHandShapeViewer",
- "references": [],
- "includePlatforms": [],
- "excludePlatforms": [],
- "allowUnsafeCode": false,
- "overrideReferences": false,
- "precompiledReferences": [],
- "autoReferenced": true,
- "defineConstraints": [],
- "versionDefines": [],
- "noEngineReferences": false
+    "name": "Inimart.XRHandShapeViewer",
+    "rootNamespace": "Inimart.XRHandShapeViewer",
+    "references": [
+        "GUID:ce522b6ed64c8be4c989a1d26d0e3275"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

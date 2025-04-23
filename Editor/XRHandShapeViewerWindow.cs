@@ -60,12 +60,12 @@ public class XRHandShapeViewerWindow : EditorWindow
         // Load hand prefabs if necessary
         if (handModelPrefab == null)
         {
-            handModelPrefab = AssetDatabase.LoadAssetAtPath<GameObject>("Packages/XRHandShapeViewer/Prefabs/HandModel.prefab");
+            handModelPrefab = AssetDatabase.LoadAssetAtPath<GameObject>("Packages/com.inimart.xrhandshapeviewer/Prefabs/HandModel.prefab");
         }
         
         if (defaultHandModelPrefab == null)
         {
-            defaultHandModelPrefab = AssetDatabase.LoadAssetAtPath<GameObject>("Packages/XRHandShapeViewer/Prefabs/DefaultHandModel.prefab");
+            defaultHandModelPrefab = AssetDatabase.LoadAssetAtPath<GameObject>("Packages/com.inimart.xrhandshapeviewer/Prefabs/DefaultHandModel.prefab");
         }
         
         // Create the preview hand

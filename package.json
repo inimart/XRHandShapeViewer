@@ -1,0 +1,25 @@
+{
+  "name": "com.inimart.xrhandshapeviewer",
+  "version": "1.0.0",
+  "displayName": "XR HandShape Viewer",
+  "description": "Editor window for previewing and animating XRHandShape assets using package‑embedded hand prefabs.",
+  "unity": "2021.3",
+  "documentationUrl": "https://github.com/inimart/xrhandshapeviewer#readme",
+  "changelogUrl": "https://github.com/inimart/xrhandshapeviewer/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/inimart/xrhandshapeviewer/blob/main/LICENSE",
+  "keywords": [
+    "xr",
+    "handshape",
+    "viewer",
+    "editor",
+    "tool"
+  ],
+  "author": {
+    "name": "Inimart",
+    "email": "inimartdesign@gmail.com",
+    "url": "https://www.inimart.com"
+  },
+  "dependencies": {
+    "com.unity.xr.hands": "1.5.0"
+  }
+} 

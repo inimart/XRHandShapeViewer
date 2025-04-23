@@ -22,7 +22,7 @@ An **Editor‑only** window that lets you preview  `XRHandShape` ScriptableObjec
 
 1. Open **Window ▸ Package Manager**.
 2. Click the **+** drop‑down ▸ **Add package from Git URL…**
-3. []
+3. [https://github.com/inimart/XRHandShapeViewer.git]
 
 ---
 
